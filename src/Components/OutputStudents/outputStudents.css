@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.searchTerm{
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  padding: 10px;
+  font-size: larger;
+}
+.searchTerm:focus{
+  border-bottom: 1px solid black;
+}
